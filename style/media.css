@@ -1,0 +1,128 @@
+@media(max-width:1200px) {
+
+    .custom__cards,
+    .fashion__cards {
+        flex-wrap: wrap;
+        max-width: 600px;
+        margin: 30px auto;
+        gap: 30px;
+    }
+
+    .nav {
+        padding: 25px 5px;
+    }
+}
+
+@media(max-width:992px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav__list {
+        order: 1;
+    }
+
+    .nav__form {
+        margin: 15px 0;
+    }
+
+    .footer__item {
+        gap: 30px;
+        max-width: 540px;
+        flex-wrap: wrap;
+    }
+
+    .footer__item_links {
+        text-align: center;
+    }
+
+    .collection {
+        text-align: center;
+    }
+}
+
+@media(max-width:768px) {
+    .header__content_title {
+        font-size: 36px;
+    }
+
+    .header__content_desc {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .fashion__cards,
+    .custom__cards {
+        justify-content: center;
+    }
+
+    .header__content {
+        height: 600px;
+    }
+}
+
+@media(max-width:576px) {
+    .nav__list {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .nav__list_link:nth-child(3) {
+        order: 1;
+    }
+
+    .nav__dropdown {
+        width: 120px;
+    }
+
+    .nav__dropdown_link {
+        padding: 11px 0 12px 0;
+    }
+
+    .header__content_title {
+        font-size: 20px;
+        padding: 15px 30px;
+    }
+
+    .fashion__desc_title {
+        font-size: 26px;
+        margin-bottom: 0;
+    }
+
+    .fashion__desc_text {
+        font-size: 15px;
+    }
+
+    .collection__title {
+        font-size: 36px;
+    }
+
+    .collection__btn {
+        padding: 18px 30px;
+    }
+
+    .collection__btn:hover {
+        padding: 18px 30px;
+    }
+}
+
+@media(max-width:320px) {
+    .footer__item_links {
+        margin: 0 auto;
+    }
+
+    .footer__list {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__item_cards {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .custom__title {
+        font-size: 40px;
+    }
+}
